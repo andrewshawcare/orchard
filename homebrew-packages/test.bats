@@ -1,16 +1,14 @@
 #!/usr/bin/env bats
 
-@test '1password is installed' {
-  run brew cask list 1password
-  [ "$status" -eq 0 ]
-}
+package_list=(\
+  1password \
+  dropbox \
+  google-chrome \
+)
 
-@test 'dropbox is installed' {
-  run brew cask list dropbox
-  [ "$status" -eq 0 ]
-}
-
-@test 'google-chrome is installed' {
-  run brew cask list google-chrome
-  [ "$status" -eq 0 ]
+@test "homebrew packages are installed" {
+  for package in ${package_list[@]}; do
+    run brew cask list "${package}"
+    [ "${status}" -eq 0 ]
+  done
 }

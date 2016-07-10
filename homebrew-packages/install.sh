@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -e
 
-if ! brew cask list dropbox; then
-  brew cask install dropbox
-fi
+package_list=(\
+  1password \
+  dropbox \
+  google-chrome \
+)
 
-if ! brew cask list 1password; then
-  brew cask install 1password
-fi
-
-if ! brew cask list google-chrome; then
-  brew cask install google-chrome
-fi
+for package in ${package_list[@]}; do
+  if ! brew cask list ${package}; then
+    brew cask install ${package}
+  fi
+done
