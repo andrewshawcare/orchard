@@ -9,3 +9,8 @@
   run brew cask list dropbox
   [ "$status" -eq 0 ]
 }
+
+@test 'google-chrome is installed' {
+  run brew cask list google-chrome
+  [ "$status" -eq 0 ]
+}
