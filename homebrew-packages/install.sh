@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
-package_list=(\
-  1password \
-  dropbox \
-  google-chrome \
-)
+source "$(dirname "$0")/package-list.bash"
+
+brew tap caskroom/cask
+brew tap caskroom/fonts
+brew update
 
 for package in ${package_list[@]}; do
   if ! brew cask list ${package}; then

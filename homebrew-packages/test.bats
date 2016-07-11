@@ -1,10 +1,6 @@
 #!/usr/bin/env bats
 
-package_list=(\
-  1password \
-  dropbox \
-  google-chrome \
-)
+load package-list
 
 @test "homebrew packages are installed" {
   for package in ${package_list[@]}; do
