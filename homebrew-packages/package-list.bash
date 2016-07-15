@@ -7,6 +7,7 @@ package_list=(\
   firefox \
   flux \
   font-open-sans \
+  font-source-code-pro \
   github-desktop \
   google-chrome \
   google-drive \
