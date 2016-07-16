@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export package_list=(\
+package_list=(\
   1password \
   atom \
   docker \
@@ -12,6 +12,7 @@ export package_list=(\
   github-desktop \
   google-chrome \
   google-drive \
+  hyperterm \
   intellij-idea \
   java \
   transmission \
