@@ -1,4 +1,5 @@
-package_list=(\
+#!/usr/bin/env bash
+export package_list=(\
   1password \
   atom \
   docker \
