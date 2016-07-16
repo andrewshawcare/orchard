@@ -8,5 +8,5 @@
   run git status
   [ "${lines[0]}" = 'On branch master' ]
   [ "${lines[1]}" = 'Your branch is up-to-date with '"'"'origin/master'"'"'.' ]
-  [ "${lines[2]}" = 'nothing to commit, working directory clean']
+  [ "${lines[2]}" = 'nothing to commit, working directory clean' ]
 }
