@@ -2,3 +2,4 @@
 set -e
 
 brew install shellcheck
+brew install node
