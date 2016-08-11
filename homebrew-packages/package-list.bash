@@ -3,7 +3,6 @@ package_list=(\
   1password \
   atom \
   docker \
-  docker-compose \
   dropbox \
   firefox \
   flux \

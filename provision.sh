@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-./bats/install.sh
-./homebrew/install.sh
-./brew-packages/install.sh
-./homebrew-packages/install.sh
-./atom/install.sh
+cd ./bats && ./install.sh && cd ..
+cd ./homebrew && ./install.sh && cd ..
+cd ./brew-packages && ./install.sh && cd ..
+cd ./homebrew-packages && ./install.sh && cd ..
+cd ./atom && ./install.sh && cd ..
