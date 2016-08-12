@@ -6,3 +6,4 @@ cd ./homebrew && ./install.sh && cd ..
 cd ./brew-packages && ./install.sh && cd ..
 cd ./homebrew-packages && ./install.sh && cd ..
 cd ./atom && ./install.sh && cd ..
+cd ./mac-app-store && ./install.sh && cd ..

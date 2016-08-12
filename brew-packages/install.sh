@@ -4,3 +4,4 @@ set -e
 brew install shellcheck
 brew install node
 brew install docker-compose
+brew install mas
