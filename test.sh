@@ -1,5 +1,4 @@
 #!/bin/bash
 set -e
 
-bats **/*.bats
-
+bats **/test.bats
