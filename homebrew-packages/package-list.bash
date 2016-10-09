@@ -11,7 +11,7 @@ package_list=(\
   github-desktop \
   google-chrome \
   google-drive \
-  hyperterm \
+  hyper \
   intellij-idea \
   java \
   transmission \
