@@ -4,6 +4,7 @@ package_list=(\
   atom \
   docker \
   dropbox \
+  duet \
   firefox \
   flux \
   font-open-sans \
