@@ -13,6 +13,7 @@ package_list=(\
   google-drive \
   intellij-idea \
   java \
+  screenhero \
   transmission \
   vagrant \
   vlc
