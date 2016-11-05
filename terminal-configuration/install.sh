@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
 
-defaults import com.apple.Terminal ./com.apple.Terminal.xml.plist
+PWD=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
+
+defaults import com.apple.Terminal ${PWD}/com.apple.Terminal.xml.plist
