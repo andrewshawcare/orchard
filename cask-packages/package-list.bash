@@ -16,6 +16,7 @@ package_list=(\
   minikube \
   screenhero \
   transmission \
+  tunnelbear \
   vagrant \
   virtualbox \
   vlc
