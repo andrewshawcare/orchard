@@ -13,11 +13,8 @@ package_list=(\
   google-drive \
   intellij-idea \
   java \
-  minikube \
   screenhero \
   transmission \
   tunnelbear \
-  vagrant \
-  virtualbox \
   vlc
 )
