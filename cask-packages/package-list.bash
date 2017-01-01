@@ -3,7 +3,6 @@ package_list=(\
   1password \
   atom \
   docker \
-  dropbox \
   duet \
   firefox \
   flux \
@@ -13,8 +12,8 @@ package_list=(\
   google-drive \
   intellij-idea \
   java \
+  nordvpn \
   screenhero \
   transmission \
-  tunnelbear \
   vlc
 )
