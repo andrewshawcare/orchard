@@ -3,7 +3,6 @@ package_list=(\
   1password \
   atom \
   docker \
-  duet \
   firefox \
   flux \
   font-open-sans \
