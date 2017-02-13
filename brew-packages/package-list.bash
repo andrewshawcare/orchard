@@ -2,9 +2,6 @@
 package_list=(\
   docker-compose \
   mas \
-  node \
-  openconnect \
-  openshift-cli \
-  shellcheck \
-  socat
+  shellcheck
 )
+export package_list

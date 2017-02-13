@@ -5,14 +5,13 @@ package_list=(\
   docker \
   firefox \
   flux \
-  font-open-sans \
   github-desktop \
   google-chrome \
   google-drive \
   intellij-idea \
   java \
   nordvpn \
-  screenhero \
   transmission \
   vlc
 )
+export package_list

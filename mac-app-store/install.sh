@@ -1,6 +1,18 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -e
 
-mas install 427475982 # BreakTime
-mas install 413857545 # Divvy
-mas install 407951449 # Things
-mas install 803453959 # Slack
+PWD=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
+application_list=()
+# shellcheck source=./
+source "${PWD}/application-list.bash"
+
+for application in "${application_list[@]}"; do
+  application_id="$(mas search ${application} | grep ${application}\$ | cut -d' ' -f1)"
+  if ! (mas list | grep --quiet "${application_id}") ; then
+    echo "Installing ${application}…"
+    mas install ${application_id}
+    echo "Installation of ${application} complete."
+  else
+    echo "${application} already installed"
+  fi
+done
