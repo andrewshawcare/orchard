@@ -7,7 +7,7 @@ application_list=()
 source "${PWD}/application-list.bash"
 
 for application in "${application_list[@]}"; do
-  application_id="$(mas search ${application} | grep ${application}\$ | cut -d' ' -f1)"
+  application_id="$(mas search "${application}" | grep "${application}"\$ | cut -d' ' -f1)"
   if ! (mas list | grep --quiet "${application_id}") ; then
     echo "Installing ${application}…"
     mas install ${application_id}

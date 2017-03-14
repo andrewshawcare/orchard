@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 application_list=(\
   'BreakTime' \
-  'Divvy' \
+  'Divvy - Window Manager' \
   'Things' \
   'Slack'
 )
