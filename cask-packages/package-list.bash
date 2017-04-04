@@ -5,7 +5,6 @@ package_list=(\
   docker \
   firefox \
   flux \
-  github-desktop \
   google-chrome \
   google-drive \
   intellij-idea \
