@@ -4,13 +4,11 @@ package_list=(\
   atom \
   docker \
   firefox \
-  flux \
   google-chrome \
   google-drive \
   intellij-idea \
   java \
   nordvpn \
-  transmission \
   vlc
 )
 export package_list
