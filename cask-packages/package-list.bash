@@ -8,7 +8,6 @@ package_list=(\
   google-drive \
   intellij-idea \
   java \
-  nordvpn \
-  vlc
+  nordvpn
 )
 export package_list
