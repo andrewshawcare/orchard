@@ -2,7 +2,6 @@
 application_list=(\
   'BreakTime' \
   'Divvy - Window Manager' \
-  'Wunderlist: To-Do List & Tasks' \
-  'Slack'
+  'Things 3'
 )
 export application_list
