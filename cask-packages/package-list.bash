@@ -5,7 +5,7 @@ package_list=(\
   docker \
   firefox \
   google-chrome \
-  google-drive \
+  google-backup-and-sync \
   hipchat \
   intellij-idea \
   java \
