@@ -10,6 +10,8 @@ package_list=(\
   intellij-idea \
   java \
   nordvpn \
+  soundflower \
+  soundflowerbed \
   tunnelblick \
   zoomus
 )
