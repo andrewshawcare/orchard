@@ -9,6 +9,7 @@ package_list=(\
   hipchat \
   intellij-idea \
   java \
+  karabiner-elements \
   nordvpn \
   soundflower \
   soundflowerbed \
