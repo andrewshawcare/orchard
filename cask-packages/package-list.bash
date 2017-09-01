@@ -10,7 +10,6 @@ package_list=(\
   intellij-idea \
   java \
   karabiner-elements \
-  nordvpn \
   soundflower \
   soundflowerbed \
   tunnelblick \
