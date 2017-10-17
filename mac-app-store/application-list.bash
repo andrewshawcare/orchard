@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 application_list=(\
   'BreakTime' \
-  'Magnet' \
+  'Divvy - Window Manager' \
   'Microsoft Remote Desktop 8.0' \
   'Things 3'
 )
