@@ -10,6 +10,7 @@ package_list=(\
   intellij-idea \
   java \
   karabiner-elements \
+  postman \
   soundflower \
   soundflowerbed \
   tunnelblick \
