@@ -7,13 +7,11 @@ package_list=(\
   firefox \
   google-chrome \
   google-backup-and-sync \
-  hipchat \
   intellij-idea \
   java \
   karabiner-elements \
+  mattermost \
   postman \
-  soundflower \
-  soundflowerbed \
   tunnelblick \
   vagrant \
   virtualbox \
