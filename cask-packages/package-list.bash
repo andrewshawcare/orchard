@@ -3,6 +3,7 @@ package_list=(\
   1password \
   atom \
   docker \
+  evernote \
   firefox \
   google-chrome \
   google-backup-and-sync \
