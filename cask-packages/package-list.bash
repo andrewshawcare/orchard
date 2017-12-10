@@ -14,6 +14,8 @@ package_list=(\
   soundflower \
   soundflowerbed \
   tunnelblick \
+  vagrant \
+  virtualbox \
   zoomus
 )
 export package_list
