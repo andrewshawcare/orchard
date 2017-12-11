@@ -2,6 +2,7 @@
 application_list=(\
   'BreakTime' \
   'Divvy - Window Manager' \
-  'Microsoft Remote Desktop 8.0'
+  'Microsoft Remote Desktop 8.0' \
+  'Pixelmator'
 )
 export application_list
