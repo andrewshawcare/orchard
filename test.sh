@@ -1,4 +1,2 @@
-#!/bin/bash
-set -e
-
+#!/bin/bash -e
 bats **/test.bats

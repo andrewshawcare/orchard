@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>displayInDock</key>
+	<false/>
+	<key>enforceBreak</key>
+	<true/>
+	<key>firstRun</key>
+	<false/>
+	<key>length</key>
+	<integer>180</integer>
+	<key>magicReschedule</key>
+	<false/>
+	<key>minutes</key>
+	<integer>1620</integer>
+	<key>runOnLogin</key>
+	<true/>
+	<key>version</key>
+	<string>2.5.2</string>
+</dict>
+</plist>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AKLastCheckInAttemptDate</key>
+	<date>2018-01-14T09:32:00Z</date>
+	<key>AKLastCheckInSuccessDate</key>
+	<date>2018-01-14T09:32:02Z</date>
+	<key>AKLastEmailListRequestDateKey</key>
+	<date>2018-01-14T19:08:31Z</date>
+	<key>AKLastIDMSEnvironment</key>
+	<integer>0</integer>
+	<key>Apple Inc. iPad</key>
+	<string>1</string>
+	<key>AppleActionOnDoubleClick</key>
+	<string>Maximize</string>
+	<key>AppleAntiAliasingThreshold</key>
+	<integer>4</integer>
+	<key>AppleLanguages</key>
+	<array>
+		<string>en-CA</string>
+	</array>
+	<key>AppleLanguagesDidMigrate</key>
+	<string>10.13.2</string>
+	<key>AppleLocale</key>
+	<string>en_CA</string>
+	<key>AppleMeasurementUnits</key>
+	<string>Centimeters</string>
+	<key>AppleMetricUnits</key>
+	<true/>
+	<key>AppleMiniaturizeOnDoubleClick</key>
+	<false/>
+	<key>AppleTemperatureUnit</key>
+	<string>Celsius</string>
+	<key>Logitech USB Receiver</key>
+	<string>1</string>
+	<key>NSAutomaticCapitalizationEnabled</key>
+	<true/>
+	<key>NSAutomaticPeriodSubstitutionEnabled</key>
+	<true/>
+	<key>NSLinguisticDataAssetsRequestTime</key>
+	<date>2018-01-13T21:41:03Z</date>
+	<key>NSLinguisticDataAssetsRequested</key>
+	<array>
+		<string>en</string>
+		<string>en_CA</string>
+	</array>
+	<key>NSNavRecentPlaces</key>
+	<array>
+		<string>~/Pictures/Desktop</string>
+		<string>/Library/Screen Savers/Default Collections/4-Nature Patterns</string>
+		<string>/Library/Screen Savers/Default Collections/3-Cosmos</string>
+		<string>/Library/Screen Savers/Default Collections/2-Aerial</string>
+		<string>/Library/Screen Savers/Default Collections/1-National Geographic</string>
+	</array>
+	<key>NSPreferredWebServices</key>
+	<dict>
+		<key>NSWebServicesProviderWebSearch</key>
+		<dict>
+			<key>NSDefaultDisplayName</key>
+			<string>Google</string>
+			<key>NSProviderIdentifier</key>
+			<string>com.google.www</string>
+		</dict>
+	</dict>
+	<key>NSUserDictionaryReplacementItems</key>
+	<array>
+		<dict>
+			<key>on</key>
+			<integer>1</integer>
+			<key>replace</key>
+			<string>omw</string>
+			<key>with</key>
+			<string>On my way!</string>
+		</dict>
+	</array>
+	<key>SanDisk Cruzer Glide</key>
+	<string>1</string>
+	<key>_HIHideMenuBar</key>
+	<false/>
+	<key>com.apple.finder.SyncExtensions</key>
+	<dict>
+		<key>dirMap</key>
+		<dict>
+			<key>com.google.GoogleDrive.FinderSyncAPIExtension</key>
+			<array>
+				<string>file:///Users/andrew/Google%20Drive/</string>
+				<string>file:///Users/andrew/Desktop/</string>
+				<string>file:///Users/andrew/Documents/</string>
+				<string>file:///</string>
+				<string>file:///Users/andrew/Pictures/</string>
+			</array>
+		</dict>
+	</dict>
+	<key>com.apple.mouse.scaling</key>
+	<real>3</real>
+	<key>com.apple.sound.beep.flash</key>
+	<integer>0</integer>
+	<key>com.apple.springing.delay</key>
+	<real>0.5</real>
+	<key>com.apple.springing.enabled</key>
+	<true/>
+	<key>com.apple.trackpad.forceClick</key>
+	<true/>
+	<key>com.apple.trackpad.scaling</key>
+	<real>3</real>
+</dict>
+</plist>
