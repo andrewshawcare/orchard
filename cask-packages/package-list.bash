@@ -4,6 +4,7 @@ package_list=(\
   google-chrome \
   google-backup-and-sync \
   sublime-text \
+  timing \
   tunnelblick \
   vagrant \
   virtualbox \
