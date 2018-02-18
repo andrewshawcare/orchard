@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 package_list=(\
+  box-sync \
   docker \
   google-chrome \
   google-backup-and-sync \
-  sublime-text \
+  intellij-idea \
   timing \
   tunnelblick \
   vagrant \
