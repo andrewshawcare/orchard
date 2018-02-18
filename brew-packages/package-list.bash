@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 package_list=(\
-  mas \
-  shellcheck
+  mas
 )
 export package_list
