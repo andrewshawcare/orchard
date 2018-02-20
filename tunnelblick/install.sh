@@ -1,4 +1,8 @@
 #!/bin/sh
+if test -d ${HOME}/ovpn_tcp; then
+  exit 0;
+fi
+
 temp_dir="$(mktemp -d)"
 config_file="ovpn_tblk.zip"
 config_path="${temp_dir}/${config_file}"
