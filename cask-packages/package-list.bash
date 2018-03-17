@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 package_list=(\
+  atom \
   box-sync \
   docker \
   google-chrome \
