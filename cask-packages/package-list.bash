@@ -4,7 +4,6 @@ package_list=(\
   docker \
   google-chrome \
   google-backup-and-sync \
-  intellij-idea \
   timing \
   tunnelblick \
   vagrant \
