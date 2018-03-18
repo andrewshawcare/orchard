@@ -5,6 +5,7 @@ package_list=(\
   docker \
   google-chrome \
   google-backup-and-sync \
+  karabiner-elements \
   tunnelblick \
   vagrant \
   virtualbox \
