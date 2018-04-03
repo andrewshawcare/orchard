@@ -3,6 +3,7 @@ package_list=(\
   atom \
   box-sync \
   docker \
+  duet \
   google-chrome \
   google-backup-and-sync \
   karabiner-elements \
