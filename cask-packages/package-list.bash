@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 package_list=(\
+  1password \
   box-sync \
   docker \
   duet \
