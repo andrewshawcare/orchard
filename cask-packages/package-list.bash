@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 package_list=(\
-  atom \
   box-sync \
   docker \
   duet \
   google-chrome \
   google-backup-and-sync \
+  intellij-idea \
   karabiner-elements \
+  mattermost \
+  obs \
+  snappy \
+  sublime-text \
   tunnelblick \
   vagrant \
   virtualbox \
