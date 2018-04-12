@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 package_list=(\
-  1password \
   box-sync \
   docker \
   duet \
@@ -10,7 +9,6 @@ package_list=(\
   karabiner-elements \
   mattermost \
   obs \
-  snappy \
   sublime-text \
   tunnelblick \
   vagrant \
