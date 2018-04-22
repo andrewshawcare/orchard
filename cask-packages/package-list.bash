@@ -13,7 +13,7 @@ package_list=(\
   tunnelblick \
   vagrant \
   virtualbox \
-  real-vnc \
+  vnc-viewer \
   zoomus
 )
 export package_list
