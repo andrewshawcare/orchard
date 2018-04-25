@@ -4,7 +4,6 @@ application_list=(\
   'BreakTime' \
   'Divvy - Window Manager' \
   'Microsoft OneNote' \
-  'Snappy - Snapshots, the smart way.' \
-  'Todoist: Organize your life'
+  'Snappy - Snapshots, the smart way.'
 )
 export application_list
