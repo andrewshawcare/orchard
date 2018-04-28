@@ -9,6 +9,7 @@ package_list=(\
   karabiner-elements \
   mattermost \
   obs \
+  spotify \
   sublime-text \
   tunnelblick \
   vagrant \
