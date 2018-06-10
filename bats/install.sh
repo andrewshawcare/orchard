@@ -1,5 +1,4 @@
-#!/bin/bash
-set -e
+#!/bin/bash -e
 
 if ! type bats; then
   TMP_DIR=$(mktemp -d -t bats)

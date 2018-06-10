@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'com.excitedpixel.breaktime displayInDock is set and correct type' {
   [ "$(defaults read-type com.excitedpixel.breaktime displayInDock)" = 'Type is boolean' ]
 }

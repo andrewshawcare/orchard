@@ -1,15 +1,14 @@
-#!/usr/bin/env bash
-set -e
+#!/bin/bash -e
 
 PWD=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 application_list=()
-# shellcheck source=./
+# shellcheck source=/dev/null
 source "${PWD}/application-list.bash"
 
 for application in "${application_list[@]}"; do
   application_id="$(\
     mas search "${application}" | \
-    grep -E "^[[:digit:]]+[[:space:]]${application}[[:space:]]\([[[:digit:]|\.]+\)$" | \
+    grep -E "^[[:digit:]]+[[:space:]]${application}[[:space:]]\\([[[:digit:]|\\.]+\\)$" | \
     cut -d' ' -f1 \
   )"
   if ! (mas list | grep --quiet "${application_id}") ; then

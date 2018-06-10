@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 package_list=()
 load package-list
 

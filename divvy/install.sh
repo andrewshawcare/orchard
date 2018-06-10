@@ -1,4 +1,5 @@
-#!/bin/sh -e
+#!/bin/bash -e
+
 domain='com.mizage.Divvy'
 
 keycode_space=49

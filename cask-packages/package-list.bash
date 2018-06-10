@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash -e
+
 package_list=(\
   docker \
   google-chrome \
@@ -12,4 +13,5 @@ package_list=(\
   virtualbox \
   zoomus
 )
+
 export package_list

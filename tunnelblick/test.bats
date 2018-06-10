@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'Tunnelblick TCP configurations are present' {
   run test -d "${HOME}/ovpn_tcp"
   [ "$status" -eq 0 ]

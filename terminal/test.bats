@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'com.apple.Terminal Default Window Settings is set and correct type' {
   [ "$(defaults read-type com.apple.Terminal 'Default Window Settings')" = 'Type is string' ]
 }

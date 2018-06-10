@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 application_list=()
 load application-list
 

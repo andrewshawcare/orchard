@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'globalHotkey is set and correct type' {
   [ "$(defaults read-type com.mizage.Divvy globalHotkey)" = 'Type is dictionary' ]
 }

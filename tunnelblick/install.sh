@@ -1,5 +1,6 @@
-#!/bin/sh
-if test -d ${HOME}/ovpn_tcp; then
+#!/bin/bash -e
+
+if test -d "${HOME}/ovpn_tcp"; then
   exit 0;
 fi
 

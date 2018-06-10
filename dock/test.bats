@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'com.apple.dock autohide is set and correct type' {
   [ "$(defaults read-type com.apple.dock autohide)" = 'Type is boolean' ]
 }

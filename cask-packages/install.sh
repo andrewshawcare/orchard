@@ -1,9 +1,8 @@
-#!/usr/bin/env bash
-set -e
+#!/bin/bash -e
 
 PWD=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 package_list=()
-# shellcheck source=./
+# shellcheck source=/dev/null
 source "${PWD}/package-list.bash"
 
 brew tap caskroom/cask
