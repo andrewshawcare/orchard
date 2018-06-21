@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 package_list=(\
+  box-sync \
   docker \
   google-chrome \
   google-backup-and-sync \
