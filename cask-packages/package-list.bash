@@ -8,7 +8,6 @@ package_list=(\
   intellij-idea \
   karabiner-elements \
   obs \
-  sublime-text \
   tunnelblick \
   vagrant \
   virtualbox \

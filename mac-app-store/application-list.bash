@@ -2,9 +2,9 @@
 
 application_list=(\
   '1Password 7' \
+  'Bear' \
   'BreakTime' \
   'Divvy - Window Manager' \
-  'Microsoft OneNote' \
   'Snappy - Snapshots, the smart way.'
 )
 
