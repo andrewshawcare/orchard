@@ -2,10 +2,9 @@
 
 application_list=(\
   '1Password 7' \
-  'Bear' \
   'BreakTime' \
   'Divvy - Window Manager' \
-  'Snappy - Snapshots, the smart way.'
+  'Wallpaper Wizard 2'
 )
 
 export application_list
