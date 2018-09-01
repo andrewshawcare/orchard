@@ -1,25 +1,25 @@
 #!/usr/bin/env bats
 
-@test 'com.excitedpixel.breaktime displayInDock is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime displayInDock)" = 'Type is boolean' ]
+@test "BreakTime has a 27 minute time between breaks" {
+  [ "$(defaults read com.excitedpixel.breaktime minutes)" = 1620 ]
 }
 
-@test 'com.excitedpixel.breaktime enforceBreak is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime enforceBreak)" = 'Type is boolean' ]
+@test "BreakTime has a 3 minute length of break" {
+  [ "$(defaults read com.excitedpixel.breaktime length)" = 180 ]
 }
 
-@test 'com.excitedpixel.breaktime length is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime length)" = 'Type is integer' ]
+@test "BreakTime enforces breaks" {
+  [ "$(defaults read com.excitedpixel.breaktime enforceBreak)" = 1 ]
 }
 
-@test 'com.excitedpixel.breaktime magicReschedule is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime magicReschedule)" = 'Type is boolean' ]
+@test "BreakTime starts at login" {
+  [ "$(defaults read com.excitedpixel.breaktime runOnLogin)" = 1 ]
 }
 
-@test 'com.excitedpixel.breaktime minutes is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime minutes)" = 'Type is integer' ]
+@test "BreakTime does not show a dock icon" {
+  [ "$(defaults read com.excitedpixel.breaktime displayInDock)" = 0 ]
 }
 
-@test 'com.excitedpixel.breaktime runOnLogin is set and correct type' {
-  [ "$(defaults read-type com.excitedpixel.breaktime runOnLogin)" = 'Type is boolean' ]
+@test "BreakTime does not use magic rescheduling" {
+  [ "$(defaults read com.excitedpixel.breaktime magicReschedule)" = 0 ]
 }
