@@ -1,9 +1,8 @@
 #!/usr/bin/env bats
-
-@test 'com.apple.dock autohide is set and correct type' {
-  [ "$(defaults read-type com.apple.dock autohide)" = 'Type is boolean' ]
+@test 'Dock is automatically hidden and shown' {
+  [ "$(defaults read com.apple.dock autohide)" = 1 ]
 }
 
-@test 'com.apple.dock persistent-apps is set and correct type' {
+@test 'Dock has persistent apps set' {
   [ "$(defaults read-type com.apple.dock persistent-apps)" = 'Type is array' ]
 }
