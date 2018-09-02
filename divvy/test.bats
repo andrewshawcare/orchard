@@ -1,7 +1,16 @@
 #!/usr/bin/env bats
 
-@test 'globalHotkey is set and correct type' {
-  [ "$(defaults read-type com.mizage.Divvy globalHotkey)" = 'Type is dictionary' ]
+@test 'Divvy has a global shortcut set to Option-Shift-Space' {
+  key_code_space=49
+  modifier_command_shift=768
+  global_hotkey_struct="$(cat <<-EOF
+{
+    keyCode = ${key_code_space};
+    modifiers = ${modifier_command_shift};
+}
+EOF
+)"
+  [ "$(defaults read com.mizage.Divvy globalHotkey)" = "${global_hotkey_struct}" ]
 }
 
 @test 'shortcuts is set and correct type' {

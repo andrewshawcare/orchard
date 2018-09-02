@@ -1,9 +1,9 @@
 #!/bin/bash -e
+working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
-PWD=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 application_list=()
 # shellcheck source=/dev/null
-source "${PWD}/application-list.bash"
+source "${working_directory}/application-list.bash"
 
 for application in "${application_list[@]}"; do
   application_id="$(\
