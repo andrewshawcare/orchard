@@ -14,7 +14,7 @@ function package_installed () {
   [ $status -eq 0 ]
 }
 
-@test 'homebrew packages are installed' {
+@test 'homebrew cask packages are installed' {
   for package in "${package_list[@]}"; do
     package_installed $package
   done
