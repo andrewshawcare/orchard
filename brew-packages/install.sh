@@ -1,8 +1,9 @@
 #!/bin/bash -e
+working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 package_list=()
 # shellcheck source=/dev/null
-source "$(dirname "$0")/package-list.bash"
+source "${working_directory}/package-list.bash"
 
 for package in "${package_list[@]}"; do
   if ! brew list "${package}"; then
