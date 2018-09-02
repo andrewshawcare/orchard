@@ -3,7 +3,7 @@
 package_list=(\
   docker \
   google-chrome \
-  intellij-idea \
+  rubymine \
   obs \
   tunnelblick \
   zoomus

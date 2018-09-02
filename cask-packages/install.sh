@@ -1,9 +1,9 @@
 #!/bin/bash -e
+working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
-PWD=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 package_list=()
 # shellcheck source=/dev/null
-source "${PWD}/package-list.bash"
+source "${working_directory}/package-list.bash"
 
 brew tap caskroom/cask
 brew tap caskroom/fonts
