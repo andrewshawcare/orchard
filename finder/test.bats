@@ -1,5 +1,5 @@
 #!/usr/bin/env bats
 
-@test 'com.apple.finder NewWindowTarget is set and correct type' {
-  [ "$(defaults read-type com.apple.finder NewWindowTarget)" = 'Type is string' ]
+@test 'Finder windows show the $HOME directory' {
+  [ "$(defaults read com.apple.finder NewWindowTarget)" = 'PfHm' ]
 }

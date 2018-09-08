@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 if ! type bats; then
-  TMP_DIR=$(mktemp -d -t bats)
-  git clone https://github.com/sstephenson/bats.git "${TMP_DIR}"
-  sudo "${TMP_DIR}/install.sh" /usr/local
-  rm -rf "${TMP_DIR}"
+  tmp_dir=$(mktemp -d -t bats)
+  git clone https://github.com/sstephenson/bats.git "${tmp_dir}"
+  sudo "${tmp_dir}/install.sh" /usr/local
+  rm -rf "${tmp_dir}"
 fi

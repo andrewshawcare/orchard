@@ -3,19 +3,19 @@
 package_list=()
 load package-list
 
-function package_installed () {
+function assert_homebrew_cask_package_installed () {
   local package=$1
 
   run brew cask list $package
 
-  result=$([ $status -eq 0 ] && echo "✓" || echo "✗")
-  echo "${result} ${package} is installed"
+  mark=$([ $status -eq 0 ] && echo "✓" || echo "✗")
+  echo "${mark} ${package} is installed"
 
   [ $status -eq 0 ]
 }
 
 @test 'Homebrew Cask packages are installed' {
   for package in "${package_list[@]}"; do
-    package_installed $package
+    assert_homebrew_cask_package_installed $package
   done
 }

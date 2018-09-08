@@ -1,4 +1,5 @@
 #!/bin/bash -e
+
 keycode_space=49
 left_shift_left_command_modifier=768
 defaults write "${domain}" globalHotkey -dict \

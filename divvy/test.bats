@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+
 @test 'Divvy is not shown in the menu bar' {
   [ "$(defaults read com.mizage.Divvy showMenuIcon)" = 0 ]
 }
