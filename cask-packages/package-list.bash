@@ -2,7 +2,6 @@
 
 package_list=(\
   docker \
-  dotnet-sdk \
   google-chrome \
   jetbrains-toolbox \
   obs \
