@@ -4,7 +4,6 @@ package_list=(\
   docker \
   google-chrome \
   jetbrains-toolbox \
-  obs \
   tunnelblick \
   visual-studio-code \
   zoomus
