@@ -5,7 +5,6 @@ package_list=(\
   google-chrome \
   jetbrains-toolbox \
   tunnelblick \
-  visual-studio-code \
   zoomus
 )
 
