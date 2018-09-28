@@ -1,7 +1,6 @@
 #!/bin/bash -e
 
 package_list=(\
-  exercism \
   mas
 )
 
