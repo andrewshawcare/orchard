@@ -2,8 +2,7 @@
 
 package_list=(\
   exercism \
-  mas \
-  shellcheck
+  mas
 )
 
 export package_list
