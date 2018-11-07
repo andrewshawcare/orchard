@@ -2,6 +2,7 @@
 
 package_list=(\
   mas \
+  mono \
   shellcheck \
 )
 
