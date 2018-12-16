@@ -2,9 +2,6 @@
 
 package_list=(\
   mas \
-  mono \
-  pipenv \
-  python \
   shellcheck \
 )
 
