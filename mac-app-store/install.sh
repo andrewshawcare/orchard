@@ -8,9 +8,11 @@ source "${working_directory}/application-list.bash"
 for application in "${application_list[@]}"; do
   application_id="$(\
     mas search "${application}" | \
-    grep -E "^[[:digit:]]+[[:space:]]${application}[[:space:]]\\([[[:digit:]|\\.]+\\)$" | \
-    cut -d' ' -f1 \
+    grep -E "^[[:space:]]+[[:digit:]]+[[:space:]]+${application}[[:space:]]+\\([[[:digit:]]|\\.]+\\)$" | \
+    awk '{print $1}' \
   )"
+
+  echo $application_id
 
   if ! (mas list | grep --quiet "${application_id}") ; then
     echo "Installing ${application}…"
