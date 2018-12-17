@@ -4,6 +4,7 @@ package_list=(\
   1password \
   docker \
   google-chrome \
+  nightowl \
   postman \
   tunnelblick \
   visual-studio-code \
