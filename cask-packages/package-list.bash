@@ -2,12 +2,10 @@
 
 package_list=(\
   1password \
-  balsamiq-mockups \
+  1password-cli \
   docker \
   dotnet-sdk \
   google-chrome \
-  nightowl \
-  postman \
   tunnelblick \
   visual-studio-code \
   zoomus
