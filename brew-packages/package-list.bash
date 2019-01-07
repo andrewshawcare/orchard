@@ -4,6 +4,7 @@ package_list=(\
   jq \
   mas \
   node \
+  python \
   shellcheck \
 )
 
