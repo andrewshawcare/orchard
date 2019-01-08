@@ -6,8 +6,8 @@ package_list=(\
   docker \
   dotnet-sdk \
   google-chrome \
+  jetbrains-toolbox \
   tunnelblick \
-  visual-studio-code \
   zoomus
 )
 
