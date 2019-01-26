@@ -7,6 +7,7 @@ package_list=(\
   dotnet-sdk \
   google-chrome \
   jetbrains-toolbox \
+  karabiner-elements \
   tunnelblick \
   zoomus
 )

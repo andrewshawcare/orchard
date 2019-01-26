@@ -3,9 +3,6 @@
 package_list=(\
   jq \
   mas \
-  node \
-  pipenv \
-  python \
   shellcheck \
 )
 
