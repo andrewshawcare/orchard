@@ -3,6 +3,7 @@
 package_list=(\
   jq \
   mas \
+  mono \
   shellcheck \
 )
 
