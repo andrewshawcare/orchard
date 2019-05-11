@@ -8,6 +8,7 @@ package_list=(\
   google-chrome \
   jetbrains-toolbox \
   karabiner-elements \
+  philips-hue-sync \
   postman \
   tunnelblick \
   zoomus
