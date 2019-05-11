@@ -8,7 +8,7 @@
   [ "$(defaults read com.excitedpixel.breaktime length)" = 180 ]
 }
 
-@test "BreakTime enforces breaks" {
+@test "BreakTime, during a break, prevents switching apps or clicking the done button early" {
   [ "$(defaults read com.excitedpixel.breaktime enforceBreak)" = 1 ]
 }
 
@@ -20,6 +20,6 @@
   [ "$(defaults read com.excitedpixel.breaktime displayInDock)" = 0 ]
 }
 
-@test "BreakTime does not use magic rescheduling" {
+@test "BreakTime, when no activity is detected, does not reschedule breaks" {
   [ "$(defaults read com.excitedpixel.breaktime magicReschedule)" = 0 ]
 }
