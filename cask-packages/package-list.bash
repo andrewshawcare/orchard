@@ -4,6 +4,7 @@ package_list=(\
   1password \
   1password-cli \
   docker \
+  dotnet-sdk \
   duet \
   google-chrome \
   jetbrains-toolbox \
@@ -11,6 +12,8 @@ package_list=(\
   philips-hue-sync \
   postman \
   tunnelblick \
+  visual-studio-code \
+  vnc-viewer \
   zoomus
 )
 
