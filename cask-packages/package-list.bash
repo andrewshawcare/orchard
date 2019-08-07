@@ -6,6 +6,7 @@ package_list=(\
   docker \
   dotnet-sdk \
   duet \
+  font-input \
   google-chrome \
   jetbrains-toolbox \
   karabiner-elements \
