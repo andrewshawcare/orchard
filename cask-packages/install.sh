@@ -7,6 +7,7 @@ source "${working_directory}/package-list.bash"
 
 brew tap caskroom/cask
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
 brew update
 
 for package in "${package_list[@]}"; do
