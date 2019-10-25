@@ -2,8 +2,7 @@
 
 application_list=(\
   'BreakTime' \
-  'Divvy - Window Manager' \
-  'Microsoft OneNote'
+  'Divvy - Window Manager'
 )
 
 export application_list

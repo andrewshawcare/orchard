@@ -5,17 +5,13 @@ package_list=(\
   1password-cli \
   docker \
   dotnet-sdk \
-  duet \
   font-input \
   google-chrome \
   jetbrains-toolbox \
   karabiner-elements \
   philips-hue-sync \
   postman \
-  tunnelblick \
-  visual-studio-code \
-  vnc-viewer \
-  zoomus
+  visual-studio-code
 )
 
 export package_list
