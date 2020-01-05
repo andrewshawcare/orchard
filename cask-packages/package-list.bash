@@ -12,6 +12,7 @@ package_list=(\
   openconnect-gui \
   philips-hue-sync \
   postman \
+  slack \
   visual-studio-code
 )
 
