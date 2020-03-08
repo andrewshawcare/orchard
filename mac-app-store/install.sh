@@ -12,8 +12,6 @@ for application in "${application_list[@]}"; do
     awk '{print $1}' \
   )"
 
-  echo $application_id
-
   if ! (mas list | grep --quiet "${application_id}") ; then
     echo "Installing ${application}…"
     mas install "${application_id}"

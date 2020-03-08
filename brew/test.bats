@@ -7,5 +7,5 @@
 
 @test 'Homebrew analytics are disabled' {
   run brew analytics
-  [ "${output}" = 'Analytics is disabled.' ]
+  [ "${output}" = 'Analytics are disabled.' ]
 }
