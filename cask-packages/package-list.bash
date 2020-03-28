@@ -6,6 +6,7 @@ package_list=(\
   jetbrains-toolbox \
   karabiner-elements \
   microsoft-teams \
+  openconnect-gui \
   philips-hue-sync \
   postman \
   slack \
