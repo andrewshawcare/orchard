@@ -10,7 +10,8 @@ package_list=(\
   philips-hue-sync \
   postman \
   slack \
-  visual-studio-code
+  soapui \
+  visual-studio-code \
 )
 
 export package_list
