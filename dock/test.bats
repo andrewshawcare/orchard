@@ -4,6 +4,6 @@
   [ "$(defaults read com.apple.dock autohide)" = 1 ]
 }
 
-@test 'Dock has persistent apps set' {
-  [ "$(defaults read-type com.apple.dock persistent-apps)" = 'Type is array' ]
+@test 'Dock only shows active apps' {
+  [ "$(defaults read com.apple.dock static-only)" = 1 ]
 }
