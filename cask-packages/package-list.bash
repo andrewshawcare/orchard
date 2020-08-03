@@ -12,6 +12,7 @@ package_list=(\
   slack \
   soapui \
   visual-studio-code \
+  wireshark \
 )
 
 export package_list
