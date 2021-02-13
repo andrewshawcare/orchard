@@ -9,8 +9,6 @@ package_list=(\
   openconnect-gui \
   philips-hue-sync \
   postman \
-  slack \
-  soapui \
   visual-studio-code \
   wireshark \
 )

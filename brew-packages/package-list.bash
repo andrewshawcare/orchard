@@ -4,7 +4,6 @@ package_list=(\
   awscli \
   jq \
   mas \
-  node \
   parallel \
   shellcheck \
 )
