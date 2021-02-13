@@ -7,10 +7,9 @@ package_list=(\
   karabiner-elements \
   microsoft-teams \
   openconnect-gui \
-  philips-hue-sync \
   postman \
+  slack \
   visual-studio-code \
-  wireshark \
 )
 
 export package_list
