@@ -10,7 +10,7 @@ brew tap homebrew/cask-fonts
 brew update
 
 for package in "${package_list[@]}"; do
-  if ! brew cask list "${package}"; then
-    brew cask install "${package}"
+  if ! brew list --cask "${package}"; then
+    brew install "${package}"
   fi
 done

@@ -6,7 +6,7 @@ load package-list
 function assert_homebrew_cask_package_installed () {
   local package=$1
 
-  run brew cask list $package
+  run brew list --cask $package
 
   mark=$([ $status -eq 0 ] && echo "✓" || echo "✗")
   echo "${mark} ${package} is installed"
