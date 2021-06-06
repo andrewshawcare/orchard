@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 package_list=(\
+  1password \
   google-chrome \
   jetbrains-toolbox \
   karabiner-elements \
