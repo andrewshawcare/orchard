@@ -2,7 +2,6 @@
 
 package_list=(\
   awscli \
-  docker \
   jq \
   mas \
   parallel \

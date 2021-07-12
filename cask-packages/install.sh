@@ -11,6 +11,6 @@ brew update
 
 for package in "${package_list[@]}"; do
   if ! brew list --cask "${package}"; then
-    brew install "${package}"
+    brew install --cask "${package}"
   fi
 done
