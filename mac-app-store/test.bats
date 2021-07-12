@@ -6,7 +6,7 @@ load application-list
 function assert_mas_application_installed () {
   local application=$1
 
-  run bash -c "mas list | cut -d' ' -f2 | grep '^${application}\$'"
+  run bash -c "mas list | tr -s ' ' | cut -d ' ' -f2 | grep '^${application}\$'"
 
   mark=$([ $status -eq 0 ] && echo "✓" || echo "✗")
   echo "${mark} ${application} is installed"
