@@ -6,7 +6,6 @@ package_list=(\
   google-chrome \
   jetbrains-toolbox \
   karabiner-elements \
-  postman \
   visual-studio-code \
 )
 
