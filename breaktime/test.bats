@@ -8,6 +8,10 @@
   [ "$(defaults read com.excitedpixel.breaktime length)" = 180 ]
 }
 
+@test "BreakTime is enabled" {
+  [ "$(defaults read com.excitedpixel.breaktime enable)" = 1 ]
+}
+
 @test "BreakTime, during a break, prevents switching apps or clicking the done button early" {
   [ "$(defaults read com.excitedpixel.breaktime enforceBreak)" = 1 ]
 }
