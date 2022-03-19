@@ -3,7 +3,6 @@
 working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 defaults write com.apple.dock autohide -boolean true
-killall Dock
 
 if ! which dockutil; then
     brew install dockutil
@@ -31,3 +30,6 @@ for application in "${default_dock_applications_to_remove[@]}"; do
         echo "${application} removed from the dock."
     fi
 done
+
+# Ensure Dock is restarted so changes take effect
+killall Dock
