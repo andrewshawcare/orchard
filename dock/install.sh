@@ -21,7 +21,8 @@ default_dock_applications_to_remove=(\
     'Podcasts' \
     'News' \
     'App Store' \
-    'System Preferences'
+    'System Preferences' \
+    'Safari'
 )
 for application in "${default_dock_applications_to_remove[@]}"; do
     if dockutil --list "${application}"; then
