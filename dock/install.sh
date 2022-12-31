@@ -3,6 +3,7 @@
 working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 defaults write com.apple.dock autohide -boolean true
+defaults write com.apple.dock show-recents -boolean false
 
 if ! which dockutil; then
     pushd ../dockutil
