@@ -5,7 +5,9 @@ working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 defaults write com.apple.dock autohide -boolean true
 
 if ! which dockutil; then
-    brew install dockutil
+    pushd ../dockutil
+    ./install.sh
+    popd
 fi
 
 default_dock_applications_to_remove=(\
@@ -13,6 +15,7 @@ default_dock_applications_to_remove=(\
     'Maps' \
     'Photos' \
     'FaceTime' \
+    'Freeform' \
     'Contacts' \
     'Reminders' \
     'Notes' \
@@ -21,13 +24,14 @@ default_dock_applications_to_remove=(\
     'Podcasts' \
     'News' \
     'App Store' \
-    'System Preferences' \
+    'System Settings' \
     'Safari'
 )
+
 for application in "${default_dock_applications_to_remove[@]}"; do
-    if dockutil --list "${application}"; then
+    if dockutil --find "${application}"; then
         echo "Removing ${application} from the dock..."
-        dockutil --remove --no-restart "${application}"
+        dockutil --remove "${application}" --no-restart
         echo "${application} removed from the dock."
     fi
 done
