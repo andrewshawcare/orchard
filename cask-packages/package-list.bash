@@ -5,7 +5,6 @@ package_list=(\
   docker \
   google-chrome \
   jetbrains-toolbox \
-  karabiner-elements \
   visual-studio-code \
 )
 
