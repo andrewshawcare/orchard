@@ -5,6 +5,7 @@ package_list=(\
   docker \
   google-chrome \
   jetbrains-toolbox \
+  streamlabs-obs \
   visual-studio-code \
 )
 
