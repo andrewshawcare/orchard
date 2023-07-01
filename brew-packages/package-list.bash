@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 package_list=(\
-  mas \
-  shellcheck \
+  'mas' \
+  'shellcheck' \
 )
 
 export package_list
