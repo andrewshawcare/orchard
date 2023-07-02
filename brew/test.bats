@@ -5,7 +5,14 @@
   [ "$status" -eq 0 ]
 }
 
-@test 'Homebrew analytics are disabled' {
+@test 'InfluxDB analytics are disabled' {
   run brew analytics
-  [ "${output}" = 'Analytics are disabled.' ]
+  echo "${output}"
+  [[ "${output}" =~ 'InfluxDB analytics are disabled.' ]]
+}
+
+@test 'Google Analytics were destroyed.' {
+  run brew analytics
+  echo "${output}"
+  [[ "${output}" =~ 'Google Analytics were destroyed.' ]]
 }
