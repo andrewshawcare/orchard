@@ -5,7 +5,6 @@ package_list=()
 # shellcheck source=/dev/null
 source "${working_directory}/package-list.bash"
 
-brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew update
 
