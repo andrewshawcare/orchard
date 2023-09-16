@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
 application_list=(\
-  'BreakTime' \
   'DaVinci Resolve' \
   'Divvy - Window Manager' \
+  'Endel: Focus, Sleep, Relax' \
   'Pixelmator Pro' \
   'ScreenBrush'
 )
