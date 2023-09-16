@@ -3,7 +3,7 @@
 application_list=(\
   'DaVinci Resolve' \
   'Divvy - Window Manager' \
-  'Endel: Focus, Sleep, Relax' \
+  'Endel' \
   'Pixelmator Pro' \
   'ScreenBrush'
 )
