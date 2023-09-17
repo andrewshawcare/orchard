@@ -2,7 +2,6 @@
 
 application_list=(\
   'DaVinci Resolve' \
-  'Divvy - Window Manager' \
   'Endel' \
   'Pixelmator Pro' \
   'ScreenBrush'

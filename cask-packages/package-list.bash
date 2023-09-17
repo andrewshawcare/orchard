@@ -5,8 +5,10 @@ package_list=(\
   'astropad-studio' \
   'discord' \
   'elgato-control-center' \
+  'font-iosevka' \
   'google-chrome' \
   'obs' \
+  'rectangle' \
   'visual-studio-code' \
 )
 
