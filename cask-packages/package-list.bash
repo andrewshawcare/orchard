@@ -7,8 +7,9 @@ package_list=(\
   'elgato-control-center' \
   'font-iosevka' \
   'google-chrome' \
-  'obs' \
+  'karabiner-elements' \
   'rectangle' \
+  'streamlabs' \
   'visual-studio-code' \
 )
 
