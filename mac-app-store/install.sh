@@ -8,8 +8,8 @@ source "${working_directory}/application-list.bash"
 for application in "${application_list[@]}"; do
   application_id="$(\
     mas search "${application}" | \
-    grep -E "^[[:space:]]+[[:digit:]]+[[:space:]]+${application}[[:space:]]+\\([[[:digit:]]|\\.]+\\)$" | \
-    awk '{print $1}' \
+    grep -E "^[[:space:]]+[[:digit:]]+[[:space:]]+${application}.*[[:space:]]+\\([[[:digit:]]|\\.]+\\)$" | \
+    awk 'NR==1{print $1}' \
   )"
 
   if ! (mas list | grep --quiet "${application_id}") ; then
