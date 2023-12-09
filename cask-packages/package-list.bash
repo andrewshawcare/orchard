@@ -2,14 +2,11 @@
 
 package_list=(\
   '1password' \
-  'astropad-studio' \
-  'discord' \
-  'elgato-control-center' \
+  'docker' \
   'font-iosevka' \
   'google-chrome' \
-  'karabiner-elements' \
+  'logi-options-plus' \
   'rectangle' \
-  'streamlabs' \
   'visual-studio-code' \
 )
 

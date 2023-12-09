@@ -1,10 +1,7 @@
 #!/bin/bash -e
 
 application_list=(\
-  'DaVinci Resolve' \
-  'Endel' \
-  'Pixelmator Pro' \
-  'ScreenBrush'
+  'Endel'
 )
 
 export application_list
