@@ -5,6 +5,7 @@ package_list=(\
   'docker' \
   'font-iosevka' \
   'google-chrome' \
+  'jetbrains-toolbox' \
   'logi-options-plus' \
   'rectangle' \
   'visual-studio-code' \
