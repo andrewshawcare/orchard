@@ -7,8 +7,7 @@ package_list=(\
   'google-chrome' \
   'jetbrains-toolbox' \
   'logi-options-plus' \
-  'rectangle' \
-  'visual-studio-code' \
+  'rectangle'
 )
 
 export package_list
