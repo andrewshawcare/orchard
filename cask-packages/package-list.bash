@@ -6,7 +6,6 @@ package_list=(\
   'font-iosevka' \
   'google-chrome' \
   'jetbrains-toolbox' \
-  'logi-options-plus' \
   'rectangle'
 )
 

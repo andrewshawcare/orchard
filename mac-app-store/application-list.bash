@@ -1,7 +1,8 @@
 #!/bin/bash -e
 
 application_list=(\
-  'Endel'
+  'Endel' \
+  'Pixelmator Pro'
 )
 
 export application_list

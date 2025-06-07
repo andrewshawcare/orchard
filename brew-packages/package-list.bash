@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 package_list=(\
-  'asdf' \
   'mas' \
+  'node' \
   'shellcheck' \
 )
 
