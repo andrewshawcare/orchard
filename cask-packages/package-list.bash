@@ -2,6 +2,7 @@
 
 package_list=(\
   '1password' \
+  '1password-cli' \
   'docker' \
   'font-iosevka' \
   'google-chrome' \
