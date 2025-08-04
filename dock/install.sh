@@ -26,7 +26,8 @@ default_dock_applications_to_remove=(\
     'News' \
     'App Store' \
     'System Settings' \
-    'Safari'
+    'Safari' \
+    'iPhone Mirroring'
 )
 
 for application in "${default_dock_applications_to_remove[@]}"; do
