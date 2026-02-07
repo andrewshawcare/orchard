@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 package_list=(\
   '1password' \

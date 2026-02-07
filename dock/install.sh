@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 

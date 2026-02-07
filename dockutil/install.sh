@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 version='3.0.2'
 package="dockutil-${version}.pkg"
 

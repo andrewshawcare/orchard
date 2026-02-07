@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 if ! type bats; then
   tmp_dir=$(mktemp -d -t bats)

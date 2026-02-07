@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 install_homebrew_package() {
     package_name="${1:?'package_name is a required parameter'}"

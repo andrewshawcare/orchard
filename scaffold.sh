@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 print_usage() {
   echo "Usage: ${0} <resource-name>"
@@ -16,6 +16,6 @@ cat <<HEREDOC > "$resource_name/test.bats"
 }
 HEREDOC
 
-echo '#!/bin/bash -e' > "$resource_name/install.sh"
+echo '#!/bin/bash -euo pipefail' > "$resource_name/install.sh"
 
 chmod +x "$resource_name/install.sh"
