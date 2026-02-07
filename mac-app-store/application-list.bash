@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-application_list=(\
-  'Pixelmator Pro'
-)
+application_list=()
 
 export application_list

@@ -12,22 +12,21 @@ if ! which dockutil; then
 fi
 
 default_dock_applications_to_remove=(\
+    'Safari' \
     'Messages' \
     'Maps' \
     'Photos' \
     'FaceTime' \
-    'Freeform' \
+    'Phone' \
     'Contacts' \
     'Reminders' \
     'Notes' \
     'TV' \
     'Music' \
-    'Podcasts' \
-    'News' \
+    'Games' \
     'App Store' \
-    'System Settings' \
-    'Safari' \
-    'iPhone Mirroring'
+    'iPhone Mirroring' \
+    'System Settings'
 )
 
 for application in "${default_dock_applications_to_remove[@]}"; do
