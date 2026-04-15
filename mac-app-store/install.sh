@@ -5,7 +5,7 @@ application_list=()
 # shellcheck source=/dev/null
 source "${working_directory}/application-list.bash"
 
-for application in "${application_list[@]}"; do
+for application in "${application_list[@]:+${application_list[@]}}"; do
   application_id="$(\
     mas search "${application}" | \
     grep -E "^[[:space:]]+[[:digit:]]+[[:space:]]+${application}.*[[:space:]]+\\([[[:digit:]]|\\.]+\\)$" | \

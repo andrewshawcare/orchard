@@ -7,7 +7,7 @@ source "${working_directory}/package-list.bash"
 
 brew update
 
-for package in "${package_list[@]}"; do
+for package in "${package_list[@]:+${package_list[@]}}"; do
   if ! brew list --cask "${package}"; then
     brew install --cask "${package}"
   fi

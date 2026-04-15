@@ -1,6 +1,6 @@
 #!/bin/bash -euo pipefail
 
-if ! type bats; then
+if ! command -v bats > /dev/null; then
   tmp_dir=$(mktemp -d -t bats)
   git clone https://github.com/bats-core/bats-core.git "${tmp_dir}"
   sudo "${tmp_dir}/install.sh" /usr/local

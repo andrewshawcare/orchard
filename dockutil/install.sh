@@ -2,7 +2,7 @@
 version='3.0.2'
 package="dockutil-${version}.pkg"
 
-if type dockutil; then
+if command -v dockutil > /dev/null; then
   exit 0
 fi
 

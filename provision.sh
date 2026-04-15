@@ -1,7 +1,24 @@
 #!/bin/bash -euo pipefail
 
-# TODO: Take file input with declarative list of packages and preferences
+working_directory=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
-find . -name 'install.sh' -exec '{}' \;
+install_scripts=(
+  brew
+  brew-packages
+  cask-packages
+  dockutil
+  dock
+  mac-app-store
+  finder
+  keyboard
+  mouse
+  trackpad
+  security-and-privacy
+  bats
+)
+
+for script in "${install_scripts[@]}"; do
+  "${working_directory}/${script}/install.sh"
+done
 
 ./test.sh

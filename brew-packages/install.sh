@@ -5,7 +5,9 @@ package_list=()
 # shellcheck source=/dev/null
 source "${working_directory}/package-list.bash"
 
-for package in "${package_list[@]}"; do
+brew update
+
+for package in "${package_list[@]:+${package_list[@]}}"; do
   if ! brew list "${package}"; then
     brew install "${package}"
   fi
