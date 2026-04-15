@@ -15,6 +15,7 @@ install_scripts=(
   trackpad
   security-and-privacy
   bats
+  claude-code
 )
 
 for script in "${install_scripts[@]}"; do
