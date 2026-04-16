@@ -5,6 +5,7 @@ package_list=(\
   'docker' \
   'gcloud-cli' \
   'google-chrome' \
+  'granola' \
   'microsoft-teams' \
   'visual-studio-code' \
   'zoom' \
