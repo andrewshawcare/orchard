@@ -2,6 +2,7 @@
 
 package_list=(\
   '1password' \
+  'cap' \
   'docker' \
   'gcloud-cli' \
   'google-chrome' \
