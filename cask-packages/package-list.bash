@@ -8,6 +8,7 @@ package_list=(\
   'google-chrome' \
   'granola' \
   'microsoft-teams' \
+  'obsidian' \
   'visual-studio-code' \
   'zoom' \
 )
