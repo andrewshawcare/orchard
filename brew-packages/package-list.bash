@@ -2,8 +2,7 @@
 
 package_list=(\
   'devcontainer' \
-  'mas' \
-  'uv' \
+  'mas'
 )
 
 export package_list
